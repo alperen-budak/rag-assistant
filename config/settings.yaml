@@ -1,0 +1,23 @@
+# ── Model configuration ──────────────────────────────────────────────────────
+embedding_model: nomic-embed-text
+generation_model: llama3.2:3b
+
+# ── Chunking ─────────────────────────────────────────────────────────────────
+chunk_size: 500       # target characters per chunk
+chunk_overlap: 50     # character overlap between consecutive chunks
+
+# ── Retrieval ─────────────────────────────────────────────────────────────────
+top_k: 5                          # chunks returned per query
+similarity_threshold: 1.5         # cosine-distance ceiling; higher = noisier
+
+# ── Embedding batching (M1 memory budget) ─────────────────────────────────────
+embed_batch_size: 8               # max chunks per Ollama embed call
+
+# ── Persistence paths (relative to project root) ──────────────────────────────
+chroma_path: ./data/chroma
+manifest_path: ./data/manifest.db
+raw_cache_path: ./data/raw
+
+# ── Ollama daemon ─────────────────────────────────────────────────────────────
+ollama_host: http://localhost:11434
+ollama_num_parallel: 1            # keep predictable on 8 GB M1

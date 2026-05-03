@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Runtime data (gitignored per PROJECT.md §5)
+data/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+
+# macOS artefacts
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE / editor
+.cursor/
+.vscode/
+*.swp
+*.swo
+
+# pytest cache
+.pytest_cache/
+.cache/
+
+# ruff cache
+.ruff_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment variable files
+.env
+*.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

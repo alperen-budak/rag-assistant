@@ -1,0 +1,181 @@
+# Entity list for Wikipedia RAG corpus.
+# Each entry: name (display), wiki_title (exact Wikipedia page title), entity_type.
+# Minimum 20 persons + 20 places = 40 total.
+
+persons:
+  - name: Albert Einstein
+    wiki_title: Albert Einstein
+    entity_type: person
+
+  - name: Marie Curie
+    wiki_title: Marie Curie
+    entity_type: person
+
+  - name: Isaac Newton
+    wiki_title: Isaac Newton
+    entity_type: person
+
+  - name: Leonardo da Vinci
+    wiki_title: Leonardo da Vinci
+    entity_type: person
+
+  - name: Nikola Tesla
+    wiki_title: Nikola Tesla
+    entity_type: person
+
+  - name: Charles Darwin
+    wiki_title: Charles Darwin
+    entity_type: person
+
+  - name: Stephen Hawking
+    wiki_title: Stephen Hawking
+    entity_type: person
+
+  - name: Cleopatra
+    wiki_title: Cleopatra
+    entity_type: person
+
+  - name: Napoleon Bonaparte
+    wiki_title: Napoleon Bonaparte
+    entity_type: person
+
+  - name: Julius Caesar
+    wiki_title: Julius Caesar
+    entity_type: person
+
+  - name: William Shakespeare
+    wiki_title: William Shakespeare
+    entity_type: person
+
+  - name: Sigmund Freud
+    wiki_title: Sigmund Freud
+    entity_type: person
+
+  - name: Mahatma Gandhi
+    wiki_title: Mahatma Gandhi
+    entity_type: person
+
+  - name: Nelson Mandela
+    wiki_title: Nelson Mandela
+    entity_type: person
+
+  - name: Ada Lovelace
+    wiki_title: Ada Lovelace
+    entity_type: person
+
+  - name: Alan Turing
+    wiki_title: Alan Turing
+    entity_type: person
+
+  - name: Aristotle
+    wiki_title: Aristotle
+    entity_type: person
+
+  - name: Galileo Galilei
+    wiki_title: Galileo Galilei
+    entity_type: person
+
+  - name: Vincent van Gogh
+    wiki_title: Vincent van Gogh
+    entity_type: person
+
+  - name: Wolfgang Amadeus Mozart
+    wiki_title: Wolfgang Amadeus Mozart
+    entity_type: person
+
+  - name: Mustafa Kemal Atatürk
+    wiki_title: Mustafa Kemal Atatürk
+    entity_type: person
+
+  - name: Frida Kahlo
+    wiki_title: Frida Kahlo
+    entity_type: person
+
+places:
+  - name: Eiffel Tower
+    wiki_title: Eiffel Tower
+    entity_type: place
+
+  - name: Colosseum
+    wiki_title: Colosseum
+    entity_type: place
+
+  - name: Great Wall of China
+    wiki_title: Great Wall of China
+    entity_type: place
+
+  - name: Machu Picchu
+    wiki_title: Machu Picchu
+    entity_type: place
+
+  - name: Taj Mahal
+    wiki_title: Taj Mahal
+    entity_type: place
+
+  - name: Pyramids of Giza
+    wiki_title: Egyptian pyramids
+    entity_type: place
+
+  - name: Stonehenge
+    wiki_title: Stonehenge
+    entity_type: place
+
+  - name: Acropolis of Athens
+    wiki_title: Acropolis of Athens
+    entity_type: place
+
+  - name: Angkor Wat
+    wiki_title: Angkor Wat
+    entity_type: place
+
+  - name: Chichen Itza
+    wiki_title: Chichen Itza
+    entity_type: place
+
+  - name: Petra
+    wiki_title: Petra
+    entity_type: place
+
+  - name: Sydney Opera House
+    wiki_title: Sydney Opera House
+    entity_type: place
+
+  - name: Amazon Rainforest
+    wiki_title: Amazon rainforest
+    entity_type: place
+
+  - name: Mount Everest
+    wiki_title: Mount Everest
+    entity_type: place
+
+  - name: Grand Canyon
+    wiki_title: Grand Canyon
+    entity_type: place
+
+  - name: Victoria Falls
+    wiki_title: Victoria Falls
+    entity_type: place
+
+  - name: Sahara Desert
+    wiki_title: Sahara
+    entity_type: place
+
+  - name: Niagara Falls
+    wiki_title: Niagara Falls
+    entity_type: place
+
+  - name: Yellowstone National Park
+    wiki_title: Yellowstone National Park
+    entity_type: place
+
+  - name: Cappadocia
+    wiki_title: Cappadocia
+    entity_type: place
+
+  - name: Hagia Sophia
+    wiki_title: Hagia Sophia
+    entity_type: place
+
+  - name: Versailles Palace
+    wiki_title: Palace of Versailles
+    entity_type: place

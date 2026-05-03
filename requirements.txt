@@ -1,0 +1,19 @@
+# ── Core runtime dependencies ───────────────────────────────────────────────
+# Wikipedia data source
+wikipedia-api==0.6.0
+
+# Vector store
+chromadb==0.5.23
+
+# Ollama Python client (embedding + generation)
+ollama==0.3.3
+
+# YAML config parsing
+PyYAML==6.0.2
+
+# ── Phase 3 — UI only (not needed for CLI or ingest) ────────────────────────
+streamlit==1.35.0
+
+# ── Development / testing (not required in production) ──────────────────────
+pytest==8.2.2
+ruff==0.4.10
