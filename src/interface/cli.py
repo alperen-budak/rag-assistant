@@ -88,7 +88,7 @@ def _print_sources(chunks, *, verbose: bool) -> None:
             )
 
 
-def run_cli(*, verbose: bool = False, no_stream: bool = False, show_category: bool = False) -> None:
+def run_cli(*, verbose: bool = False, no_stream: bool = False, show_category: bool = False, debug: bool = False) -> None:
     print(_BANNER)
 
     show_sources = verbose
@@ -125,7 +125,7 @@ def run_cli(*, verbose: bool = False, no_stream: bool = False, show_category: bo
 
         # ── Retrieve ──────────────────────────────────────────────────────────
         print(f"{DIM}Searching…{RESET}", end="\r")
-        chunks, category = retrieve_with_category(raw)
+        chunks, category = retrieve_with_category(raw, debug=debug)
 
         if show_cat:
             print(
@@ -179,12 +179,18 @@ def main() -> None:
         action="store_true",
         help="Always display the router category decision.",
     )
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="Print detailed retrieval diagnostics (query, filter, distances) to stdout.",
+    )
     args = parser.parse_args()
 
     run_cli(
         verbose=args.verbose,
         no_stream=args.no_stream,
         show_category=args.show_category,
+        debug=args.debug,
     )
 
 

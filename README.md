@@ -1,5 +1,7 @@
 # Wikipedia RAG — Local Knowledge Assistant
 
+Demo video: https://youtu.be/f8QPb9DZm-A
+
 > **Course:** BLG483E — Homework 3  
 > **Author:** Alperen Budak  
 > **Runtime:** 100 % localhost — no external API calls, no internet required at inference time
