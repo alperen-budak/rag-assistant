@@ -1,6 +1,7 @@
 # Wikipedia RAG — Local Knowledge Assistant
 
 Demo video: https://youtu.be/f8QPb9DZm-A
+Repository: https://github.com/alperen-budak/rag-assistant
 
 > **Course:** BLG483E — Homework 3  
 > **Author:** Alperen Budak  
